@@ -2,7 +2,7 @@ version: '3.0'
 
 services:
   docker-angular-cli:
-    image: johnpapa/angular-cli
+    image: docker.edcontrols.com:5000/angular-cli
     build: .
     environment:
       NODE_ENV: production
